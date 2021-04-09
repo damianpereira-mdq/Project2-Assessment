@@ -1,6 +1,8 @@
 package com.pedidosya.stepsDefinitions;
 
 
+import java.net.MalformedURLException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -28,7 +30,7 @@ public class LoginPageSteps {
 	// === Hooks ===
 	
 	@Before
-	public void launchBrowser() {
+	public void launchBrowser() throws MalformedURLException {
 
 		driver = SetupBrowser.startBrowser(driver, "Chrome");
 	}

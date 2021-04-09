@@ -1,3 +1,4 @@
+com\pedidosya\pages\OrderAndCheckoutPage.class
 com\pedidosya\listeners\TestLogger.class
 com\pedidosya\listeners\TestListener.class
 com\pedidosya\stepsDefinitions\OrderAndCheckoutSteps.class
