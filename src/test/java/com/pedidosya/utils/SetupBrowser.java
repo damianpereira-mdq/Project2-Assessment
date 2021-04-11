@@ -29,8 +29,8 @@ public class SetupBrowser {
 			driver = new ChromeDriver();			
 			
 			// === For Selenium grid implementation === 
-			cap = DesiredCapabilities.chrome();
-			cap.setBrowserName("Chrome");
+			//cap = DesiredCapabilities.chrome();
+			//cap.setBrowserName("Chrome");
 			
 			
 

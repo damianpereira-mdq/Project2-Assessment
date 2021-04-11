@@ -7,4 +7,4 @@ Feature: Order food and checkout page feature
     And User confirms the selection
     And User selects "Continuar"
     Then It should load the checkout page
-    And The checkout page title should be "Checkout"
+    And The checkout page title should be "Delivery Online - Elegí, Pedí y Ya | PedidosYa"
