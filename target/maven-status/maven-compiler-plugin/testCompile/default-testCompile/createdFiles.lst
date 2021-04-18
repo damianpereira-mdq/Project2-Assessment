@@ -1,9 +1,7 @@
 com\pedidosya\pages\OrderAndCheckoutPage.class
 com\pedidosya\listeners\TestLogger.class
 com\pedidosya\listeners\TestListener.class
-com\pedidosya\stepsDefinitions\OrderAndCheckoutSteps.class
 com\pedidosya\pages\LoginPage.class
 com\pedidosya\utils\SetupBrowser.class
 com\pedidosya\listeners\Logger.class
 com\pedidosya\runner\testRunner.class
-com\pedidosya\stepsDefinitions\LoginPageSteps.class

@@ -1,8 +1,5 @@
 Feature: Login page feature
 
-  #		Background: Setup browser
-  #			Given The cookies were cleared
-  #			And The browser window is maximazed
   Scenario: Login
     Given User launches Chrome browser
     When User opens URL "https://pedidosya.com.ar"

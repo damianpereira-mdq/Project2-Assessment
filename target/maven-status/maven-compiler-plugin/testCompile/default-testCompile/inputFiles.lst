@@ -1,9 +1,8 @@
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\runner\testRunner.java
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\listeners\Logger.java
+E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\stepsDefinitions\StepsDefinitions.java
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\utils\SetupBrowser.java
-E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\stepsDefinitions\LoginPageSteps.java
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\pages\LoginPage.java
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\listeners\TestListener.java
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\pages\OrderAndCheckoutPage.java
 E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\listeners\TestLogger.java
-E:\Simplilearn\Project2-Assessment-A\src\test\java\com\pedidosya\stepsDefinitions\OrderAndCheckoutSteps.java

@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.243 s - in TestSuite
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 64.074 s <<< FAILURE! - in TestSuite
+com.pedidosya.runner.testRunner.runScenario["Order food and checkout", "Optional[Order food and checkout page feature]"](3)  Time elapsed: 27.191 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"body.inner.profile.peya.ar.user_is_not_logged.locationMyAccount.locationTestTop.locationProfile:nth-child(2) div.row.rowContainer:nth-child(19) section.medium-8.columns section.tab-panel.tab-active:nth-child(1) div.sectionContainer section.menuSectionContainer.seek:nth-child(4) div.section_animated:nth-child(3) ul.highlight_list li.peyaCard.product-full-card.product.most div.content.full-card-empty:nth-child(3) > h4.productName"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EER3MNQ', ip: '192.168.1.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Damian\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c38b6766f9b8b2faac58e16bf169e3a0
+*** Element info: {Using=css selector, value=body.inner.profile.peya.ar.user_is_not_logged.locationMyAccount.locationTestTop.locationProfile:nth-child(2) div.row.rowContainer:nth-child(19) section.medium-8.columns section.tab-panel.tab-active:nth-child(1) div.sectionContainer section.menuSectionContainer.seek:nth-child(4) div.section_animated:nth-child(3) ul.highlight_list li.peyaCard.product-full-card.product.most div.content.full-card-empty:nth-child(3) > h4.productName}
+
