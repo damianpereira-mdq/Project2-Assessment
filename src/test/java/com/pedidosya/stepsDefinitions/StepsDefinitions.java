@@ -144,16 +144,14 @@ public class StepsDefinitions {
 		// System.out.println("Restaurant is: "+ restaurant);
 		// orderAndCheckout.selectDirectRestaurant();
 		// driver.findElement(By.id("searchList")).sendKeys("Las Palmeras");
-		driver.findElement(By.linkText("Mouga Sushi")).click();
+		// driver.findElement(By.linkText("Mouga Sushi")).click();
 
 	}
 
 	@When("User selects the option {string}")
 	public void user_selects_the_option(String foody) throws InterruptedException {
 
-		driver.findElement(By.cssSelector(
-				"body.inner.profile.peya.ar.user_is_not_logged.locationMyAccount.locationTestTop.locationProfile:nth-child(2) div.row.rowContainer:nth-child(19) section.medium-8.columns section.tab-panel.tab-active:nth-child(1) div.sectionContainer section.menuSectionContainer.seek:nth-child(4) div.section_animated:nth-child(3) ul.highlight_list li.peyaCard.product-full-card.product.most div.content.full-card-empty:nth-child(3) > h4.productName"))
-				.click();
+		//driver.findElement(By.cssSelector("body.inner.profile.peya.ar.user_is_not_logged.locationMyAccount.locationTestTop.locationProfile:nth-child(2) div.row.rowContainer:nth-child(19) section.medium-8.columns section.tab-panel.tab-active:nth-child(1) div.sectionContainer section.menuSectionContainer.seek:nth-child(4) div.section_animated:nth-child(3) ul.highlight_list li.peyaCard.product-full-card.product.most div.content.full-card-empty:nth-child(3) > h4.productName")).click();
 		System.out.println("Selecting food :" + foody);
 		Thread.sleep(1000);
 	}
@@ -161,7 +159,7 @@ public class StepsDefinitions {
 	@When("User confirms the selection")
 	public void user_confirms_the_selection() throws InterruptedException {
 
-		driver.findElement(By.xpath("//body/div[@id='']/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/a[1]")).click();
+		// driver.findElement(By.xpath("//body/div[@id='']/div[1]/div[1]/div[1]/div[1]/footer[1]/div[1]/a[1]")).click();
 		System.out.println("Confirming food");
 		Thread.sleep(1000);
 	}
@@ -169,7 +167,7 @@ public class StepsDefinitions {
 	@When("User selects {string}")
 	public void user_selects(String confirm) {
 
-		driver.findElement(By.id("order")).click();
+		//driver.findElement(By.id("order")).click();
 
 	}
 
